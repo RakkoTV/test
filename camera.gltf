@@ -1,40 +1,188 @@
 {
-    "asset": {
-        "generator": "gltf-sample-viewer",
-        "version": "2.0"
+  "asset": {
+    "version": "2.0",
+    "generator": "THREE.GLTFExporter"
+  },
+  "scenes": [
+    {
+      "nodes": [
+        1
+      ],
+      "name": "Astronaut"
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "name": "node-0",
+      "mesh": 0
     },
-    "cameras": [
-        {
-            "type": "perspective",
-            "perspective": {
-                "aspectRatio": 1.1298969072164948,
-                "yfov": 0.7853981633974483,
-                "zfar": 51.96915859531549,
-                "znear": 0.005196915859531549
-            }
+    {
+      "name": "Astronaut.glb",
+      "children": [
+        0
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 57744,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 57744,
+      "byteLength": 57744,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 115488,
+      "byteLength": 38496,
+      "target": 34962,
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 153984,
+      "byteLength": 9624,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 163608,
+      "byteLength": 2703796
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2867404
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 4812,
+      "max": [
+        0.5598490238189697,
+        2.0108470916748047,
+        0.35558950901031494
+      ],
+      "min": [
+        -0.5598490238189697,
+        0,
+        -0.36792251467704773
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4812,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4812,
+      "max": [
+        0.9919459819793701,
+        -0.0031419999431818724
+      ],
+      "min": [
+        0.007249000016599894,
+        -0.9937999844551086
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 4812,
+      "max": [
+        4811
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.9699476628648295,
+        "baseColorTexture": {
+          "index": 0
         }
-    ],
-    "nodes": [
+      },
+      "doubleSided": true,
+      "name": "Astronaut_mat",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "alphaCutoff": 0.5
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 1000,
+      "wrapT": 1000
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "bufferView": 4
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
         {
-            "camera": 0,
-            "matrix": [
-                0.9999382495880127,
-                0,
-                0.0111108822748065,
-                0,
-                0.0003702941758092493,
-                0.9994444847106934,
-                -0.03332510590553284,
-                0,
-                -0.011104710400104523,
-                0.03332716226577759,
-                0.9993827939033508,
-                0,
-                -0.06005631387233734,
-                0.1802411675453186,
-                5.404895782470703,
-                1
-            ]
+          "mode": 4,
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
         }
-    ]
+      ]
+    }
+  ]
 }
